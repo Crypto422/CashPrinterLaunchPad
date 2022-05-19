@@ -133,7 +133,7 @@ const StyledButton = styled.button<StyledButtonProps>`
   align-items: center;
   background: ${(props) =>
     !props.disabled
-      ? `linear-gradient(to bottom,#D9047C, #BF1088)`
+      ? `linear-gradient(to bottom,#2336a6,#0f15ff)`
       : `${props.bgColor}50`};
   border: solid 1px;
   border-radius: 30px;

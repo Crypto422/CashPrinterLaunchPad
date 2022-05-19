@@ -37,7 +37,7 @@ import React, { memo, useEffect, useState } from 'react'
 //               <img src={PolkaBridge} height="50" alt="PBR Balance" />
 //               <Spacer />
 //               <div style={{ flex: 1 }}>
-//                 <Label text="Your Available PBR Balance" />
+//                 <Label text="Your Available CASHP Balance" />
 //                 <Value
 //                   value={!!account ? getBalanceNumber(pbrBalance) : 'Locked'}
 //                 />
@@ -52,7 +52,7 @@ import React, { memo, useEffect, useState } from 'react'
 //       <Card>
 //         <CardContent>
 //           <StyledBalance>
-//             <img height="50px" src={PolkaBridges} alt="Total PBR Supply" />
+//             <img height="50px" src={PolkaBridges} alt="Total CASHP Supply" />
 //             <Spacer />
 //             <div style={{ flex: 1 }}>
 //               <Label text="PBR Circulating Supply" />

@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useCallback, useEffect, useState } from 'react'
-import { HashRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router ,BrowserRouter, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { UseWalletProvider } from '@binance-chain/bsc-use-wallet'
 import DisclaimerModal from './components/DisclaimerModal'

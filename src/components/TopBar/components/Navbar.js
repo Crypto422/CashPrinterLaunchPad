@@ -189,7 +189,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   numbers: {
-    color: "#E0077D",
+    color: "#26e4c8",
     fontSize: 26,
     [theme.breakpoints.down("sm")]: {
       fontSize: 16,

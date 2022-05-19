@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     padding: '9px 14px 0px',
     cursor: 'pointer',
     fontSize: '1.2vw',
-    color: '#e0077d',
+    color: '#26e4c8',
     textDecoration: 'none',
   },
 

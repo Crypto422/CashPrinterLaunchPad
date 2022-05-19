@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 import { isMetaMaskInstalled } from '../../utils/helper'
 import { bscNetwork, etheriumNetwork, maticNetwork } from '../../constants'
 import { connectWallet } from '../../actions/accountActions'
+import React from 'react'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -120,7 +121,7 @@ const Wallet = ({
       ) : (
         <Button onClick={onWalletClick} className={classes.root}>
           <AccountBalanceWallet
-            style={{ color: '#bdbdbd', marginRight: 5, fontSize: 20 }}
+            style={{ color: '#ebebeb', marginRight: 5, fontSize: 20 }}
             fontSize="medium"
           />
           <strong className={classes.numbers}>

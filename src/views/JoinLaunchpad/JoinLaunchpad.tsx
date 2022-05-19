@@ -734,7 +734,7 @@ const JoinLaunchpad: React.FC = () => {
               <StyledCenterRow>
                 <StyledInfoLabel>
                   Your staked amount:{' '}
-                  {formatFloatValue(fromWei(stakedAmount?.toString())) + ' PBR'}
+                  {formatFloatValue(fromWei(stakedAmount?.toString())) + ' CASHP'}
                 </StyledInfoLabel>
                 <StyledInfoLabel>
                   Your max purchase:{' '}
@@ -749,7 +749,7 @@ const JoinLaunchpad: React.FC = () => {
               <StyledCenterRow>
                 {/* <StyledInfoLabel>
                   Your staked amount:{' '}
-                  {formatFloatValue(fromWei(stakedAmount.toString())) + ' PBR'}
+                  {formatFloatValue(fromWei(stakedAmount.toString())) + ' CASHP'}
                 </StyledInfoLabel> */}
                 <StyledInfoLabel>
                   Your Allocation:{' '}
@@ -1055,28 +1055,28 @@ const JoinLaunchpad: React.FC = () => {
               className="text-center d-flex justify-content-center"
               style={{
                 width: 'fit-content',
-                border: '1px solid #454545',
+                border: '1px solid #949494',
                 borderRadius: 5,
                 paddingTop: 10,
                 paddingBottom: 10,
               }}
             >
               <div style={{ width: window.innerWidth > 600 ? 200 : '30%' }}>
-                <p style={{ color: '#bdbdbd' }}>Token purchased</p>
+                <p style={{ color: '#ebebeb' }}>Token purchased</p>
                 <h6 style={{ color: 'yellow', fontWeight: 600, marginTop: 4 }}>
                   {purchasedAmount} {tokenSymbol}
                 </h6>
               </div>
               <div style={{ width: window.innerWidth > 600 ? 200 : '30%' }}>
                 {' '}
-                <p style={{ color: '#bdbdbd' }}>Amount (USD)</p>
+                <p style={{ color: '#ebebeb' }}>Amount (USD)</p>
                 <h6 style={{ color: 'yellow', fontWeight: 600, marginTop: 4 }}>
                   {purchaseStats ? purchaseStats?.amountUsd : 0}$
                 </h6>
               </div>
               <div style={{ width: window.innerWidth > 600 ? 200 : '30%' }}>
                 {' '}
-                <p style={{ color: '#bdbdbd' }}>Profit/Loss (%)</p>
+                <p style={{ color: '#ebebeb' }}>Profit/Loss (%)</p>
                 {purchaseStats && (
                   <>
                     {new BigNumber(purchaseStats?.profit).gt(0) && (
@@ -1255,8 +1255,8 @@ const StyledMaxButton = styled.button`
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: #e0077d;
-  border: solid 1px #e0077d;
+  background: #26e4c8;
+  border: solid 1px #26e4c8;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
@@ -1381,7 +1381,7 @@ const StyledProgressText = styled.p`
   margin-top: 4px;
   margin-bottom: 0;
   font-size: 12px;
-  color: #e0077d;
+  color: #26e4c8;
   line-height: 12px;
 `
 
@@ -1390,7 +1390,7 @@ const StyledProgressBar = styled.i`
   left: 0;
   top: 0;
   height: 8px;
-  background: #e0077d;
+  background: #26e4c8;
   border-radius: 5px;
   font-size: 14px;
 `
@@ -1416,7 +1416,7 @@ const StyledTableHeadCell = styled.th`
 const StyledTableBodyCell = styled.td`
   padding: 0 50px 0 30px;
   font-size: 14px;
-  color: #7a7f82;
+  color: #cdffac;
   // line-height: 60px;
 `
 const StyledTableText = styled.p`

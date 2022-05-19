@@ -8,7 +8,7 @@ const StyledCard = styled.div`
   width: 100%;
   padding: 20;
   border-radius: 20px;
-  background-color: rgba(41, 42, 66, 0.3);
+  background-color: rgb(74 64 211 / 30%);
   border: 2px solid #212121;
   filter: drop-shadow(0 0 0.5rem #212121);
 `

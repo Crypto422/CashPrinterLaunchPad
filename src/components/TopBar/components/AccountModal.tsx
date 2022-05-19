@@ -238,7 +238,7 @@ const Heading3 = styled.div`
   background: #e5e5e5;
   font-size: 16px;
   font-weight: 800;
-  color: #e0077d;
+  color: #26e4c8;
   padding: 12px 20px;
   border-radius: 16px 16px 0 0;
 `
@@ -325,7 +325,7 @@ const TextMedium = styled.div`
     margin-left: 5px;
   }
   .st-link {
-    color: #e0077d;
+    color: #26e4c8;
     text-decoration: none;
     font-size: 13px;
     margin-left: 10px;

@@ -188,7 +188,7 @@ const LaunchpadCard: React.FC<LaunchpadCardProps> = ({ launchpad }) => {
             </div>
             <StyledTitle>{launchpad.name}</StyledTitle>
             <StyledTitle2>
-              <span style={{ color: '#ff3465' }}>
+              <span style={{ color: '#f1ca0a' }}>
                 <b>{launchpad.access}</b>
               </span>
             </StyledTitle2>
@@ -226,14 +226,14 @@ const LaunchpadCard: React.FC<LaunchpadCardProps> = ({ launchpad }) => {
             <StyledInsight>
               <span>Access</span>
 
-              <span style={{ color: '#ff3465' }}>
+              <span style={{ color: '#f1ca0a' }}>
                 <b>{launchpad.access}</b>
               </span>
             </StyledInsight>
             <StyledInsight>
               <span>Network</span>
 
-              <span style={{ color: '#ff3465' }}>
+              <span style={{ color: '#f1ca0a' }}>
                 <b>
                   {/* {launchpad.network === 'bsc'
                     ? 'Binance Smart Chain' : launchpad.network === "polygon" ? "Polygon"
@@ -245,7 +245,7 @@ const LaunchpadCard: React.FC<LaunchpadCardProps> = ({ launchpad }) => {
             <StyledInsight>
               <span>Date</span>
 
-              <span style={{ color: '#ff3465' }}>
+              <span style={{ color: '#f1ca0a' }}>
                 <b>{launchpad.startDate}</b>
               </span>
             </StyledInsight>
@@ -422,7 +422,7 @@ const StyledCardWrapper = styled.div`
   position: relative;
   overflow: hidden;
   border-radius: 24px;
-  border: 3px solid #212121;
+  border: 3px solid #f0f127d4;
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -497,7 +497,7 @@ const StyledInsight = styled.div`
   box-sizing: border-box;
   border-radius: 8px;
   background: transparent;
-  color: #bdbdbd;
+  color: #ebebeb;
   width: 100%;
   line-height: 25px;
   font-size: 13px;
@@ -517,7 +517,7 @@ const StyledProgressText = styled.p`
   margin-top: 4px;
   margin-bottom: 0;
   font-size: 12px;
-  color: #e0077d;
+  color: #26e4c8;
   line-height: 12px;
 `
 
@@ -526,7 +526,7 @@ const StyledProgressBar = styled.i`
   left: 0;
   top: 0;
   height: 8px;
-  background: #e0077d;
+  background: #26e4c8;
   border-radius: 5px;
   font-size: 14px;
 `

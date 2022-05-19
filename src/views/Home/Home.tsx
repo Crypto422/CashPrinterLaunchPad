@@ -56,13 +56,13 @@ const useStyles = makeStyles((theme) => ({
   divider: {
     width: 130,
     height: 3,
-    background: 'linear-gradient(to right, #e0077d, rgba(0, 0, 0, 0.4))',
+    background: 'linear-gradient(to right, #26e4c8, rgba(0, 0, 0, 0.4))',
     [theme.breakpoints.down('sm')]: {
       marginBottom: 15,
     },
   },
   actionButton: {
-    background: `linear-gradient(to bottom,#D9047C, #BF1088)`,
+    background: `linear-gradient(to bottom,#2336a6,#0f15ff)`,
     color: 'white',
     width: 'fit-content',
     height: 40,
@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     padding: '5px 20px 5px 20px',
     '&:hover': {
-      background: 'rgba(224, 7, 125, 0.7)',
+      background: 'rgb(0 94 251 / 70%)',
     },
     [theme.breakpoints.down('sm')]: {
       width: '100%',
@@ -205,13 +205,6 @@ const Home: React.FC = () => {
         </div>
       </div>
       <Box className="mt-3">
-        <div className={classes.rpcLabel}>
-          <img
-            src="https://assets.coingecko.com/coins/images/4324/small/U85xTl2.png?1608111978"
-            className={classes.icon}
-          />
-          You can earn money via invest
-        </div>
         <LaunchpadCards />
       </Box>
     </Page>

@@ -256,7 +256,7 @@ const Launchpad: React.FC = () => {
               <StyledCenterRow>
                 <StyledInfoLabel>
                   Your staked amount:{' '}
-                  {formatFloatValue(fromWei(stakedAmount?.toString())) + ' PBR'}
+                  {formatFloatValue(fromWei(stakedAmount?.toString())) + ' CASHP'}
                 </StyledInfoLabel>
                 <StyledInfoLabel>
                   Your max purchase:{' '}
@@ -271,7 +271,7 @@ const Launchpad: React.FC = () => {
               <StyledCenterRow>
                 {/* <StyledInfoLabel>
                   Your staked amount:{' '}
-                  {formatFloatValue(fromWei(stakedAmount.toString())) + ' PBR'}
+                  {formatFloatValue(fromWei(stakedAmount.toString())) + ' CASHP'}
                 </StyledInfoLabel> */}
                 <StyledInfoLabel>
                   Your Allocation:{' '}
@@ -488,7 +488,7 @@ const StyledSocialMedia = styled.div`
 `
 
 const StyledMediaLink = styled.a`
-  color: #7a7f82;
+  color: #cdffac;
   padding: 6px 12px;
   text-decoration: none;
 `
@@ -512,7 +512,7 @@ const StyledInfoSolid = styled.div`
   padding: 15px 10px;
   background: rgba(41, 42, 66, 0.5);
   border-radius: 12px;
-  border: 1px solid #454545;
+  border: 1px solid #949494;
 `
 
 const StyledBox = styled.div`
@@ -546,7 +546,7 @@ const StyledProgressText = styled.p`
   margin-top: 4px;
   margin-bottom: 0;
   font-size: 12px;
-  color: #e0077d;
+  color: #26e4c8;
   line-height: 12px;
 `
 
@@ -555,7 +555,7 @@ const StyledProgressBar = styled.i`
   left: 0;
   top: 0;
   height: 8px;
-  background: #e0077d;
+  background: #26e4c8;
   border-radius: 5px;
   font-size: 14px;
 `
@@ -568,7 +568,7 @@ const StyledTableHead = styled.thead``
 const StyledTableBody = styled.tbody``
 const StyledTableRow = styled.tr`
   height: 60px;
-  border-bottom: 1px solid #454545;
+  border-bottom: 1px solid #949494;
 `
 const StyledTableHeadCell = styled.th`
   padding: 0 50px 0 30px;
@@ -581,7 +581,7 @@ const StyledTableHeadCell = styled.th`
 const StyledTableBodyCell = styled.td`
   padding: 0 50px 0 30px;
   font-size: 14px;
-  color: #7a7f82;
+  color: #cdffac;
   // line-height: 60px;
 `
 const StyledTableText = styled.p`
@@ -591,7 +591,7 @@ const StyledTableText = styled.p`
 `
 const StyledTableLabel = styled.span`
   text-align: right;
-  color: #bdbdbd;
+  color: #ebebeb;
   font-weight: 400;
   white-space: nowrap;
 `
