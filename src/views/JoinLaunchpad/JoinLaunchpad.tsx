@@ -839,7 +839,7 @@ const JoinLaunchpad: React.FC = () => {
                 </StyledInputContainer>
                 <Spacer size="md" />
 
-                {!captchaVerified ? (
+                {/* {!captchaVerified ? (
                   <StyledCenterRow>
                     <ReCAPTCHA
                       ref={recaptchaRef}
@@ -853,7 +853,8 @@ const JoinLaunchpad: React.FC = () => {
                       onChange={handleCaptchaVerification}
                     />
                   </StyledCenterRow>
-                ) : (
+                ) : ( */}
+                {(
                   <Button
                     disabled={isButtonDisable()}
                     onClick={async () => {

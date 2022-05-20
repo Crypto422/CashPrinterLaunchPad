@@ -304,7 +304,7 @@ const Navbar = () => {
           },
           {},
         ].map((tab, index) => (
-          <ListItem button key={tab.name} onClick={toggleDrawer(anchor, false)}>
+          <ListItem button key={index} onClick={toggleDrawer(anchor, false)}>
             <a href={tab.link}>
               <ListItemText
                 primary={tab.name}
@@ -342,9 +342,9 @@ const Navbar = () => {
 
           <div className="d-flex justify-content-end">
             <div>
-              <a href="/" className={classes.navbarItemsDesktopActive} style={{ fontSize: '30px' }}>
+              <Link to='/' className={classes.navbarItemsDesktopActive} style={{ fontSize: '30px' }}>
                 Cash&nbsp;Printer
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -378,7 +378,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className={classes.grow} />
-         
+
           <div style={{ paddingRight: 10 }}></div>
           <AccountButton onWalletClick={() => setAccountDialog(true)} />
         </Toolbar>
@@ -399,15 +399,15 @@ const Navbar = () => {
 
           <div className="d-flex justify-content-end">
             <div>
-              <a href="/" className={classes.navbarItemsMobileActive}>
+              <Link to='/' className={classes.navbarItemsMobileActive}>
                 Cash&nbsp;Printer
-              </a>
+              </Link>
             </div>
           </div>
 
           <div>
-            {['right'].map((anchor) => (
-              <React.Fragment key={anchor}>
+            {['right'].map((anchor, index) => (
+              <React.Fragment key={index}>
                 <IconButton
                   aria-label="Menu"
                   aria-haspopup="true"
