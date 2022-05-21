@@ -286,7 +286,7 @@ const Navbar = () => {
         {[
           {
             name: 'Stake',
-            link: 'https://google.com/',
+            link: 'https://cash-printer-staking.vercel.app/',
             id: 'staking',
             icon: <EqualizerOutlined />,
           },
@@ -298,7 +298,7 @@ const Navbar = () => {
           },
           {
             name: 'Launchpad',
-            link: 'https://google.com/',
+            link: 'https://cash-printer-launch-pad.vercel.app/',
             id: 'characters',
             icon: <PeopleAltOutlined />,
           },
@@ -352,8 +352,8 @@ const Navbar = () => {
 
           <div className="d-flex justify-content-end">
             <div>
-              <a href="https://google.com" className={classes.navbarItemsDesktop}>
-                Stake <DotCircle active={true} />
+              <a href="https://cash-printer-staking.vercel.app/" target="_blank" className={classes.navbarItemsDesktop}>
+                Stake 
               </a>
             </div>
           </div>
@@ -365,17 +365,16 @@ const Navbar = () => {
               className={classes.navbarItemsDesktop}
             >
               Farm
-              <DotCircle />
+            
             </a>
           </div>
           <div>
-            <a
-              href="https://google.com"
-              target="_blank"
+            <Link
+              to="/"
               className={classes.navbarItemsDesktopActive}
             >
-              Launchpad <DotCircle />
-            </a>
+              Launchpad
+            </Link>
           </div>
           <div className={classes.grow} />
 
