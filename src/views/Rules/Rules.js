@@ -131,8 +131,8 @@ const Rules = () => {
               </h6>
               <ul className={classes.listing}>
                 <li>
-                  You need to stake minimum 10,000 CASHP tokens to staking pool
-                  either on Polygon network or Ethereum network.
+                  You need to stake minimum 250 CASHP tokens to staking pool
+                  either on pulsechain network.
                 </li>
 
               </ul>

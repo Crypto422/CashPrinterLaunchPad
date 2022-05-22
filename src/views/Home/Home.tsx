@@ -170,7 +170,7 @@ const Home: React.FC = () => {
                 href="https://google.com"
               >
                 <Button className={classes.actionButton} variant="contained">
-                  Tier System
+                  Level System
                 </Button>
                 <div></div>
               </a>
